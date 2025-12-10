@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<title>Darshan Lakade - Java Developer Resume</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 40px;
+        background: #f7f7f7;
+        color: #222;
+        line-height: 1.6;
+    }
+    .container {
+        max-width: 900px;
+        margin: auto;
+        background: #fff;
+        padding: 40px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+        text-align: center;
+        margin-bottom: 5px;
+        font-size: 36px;
+    }
+    .links {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    .links a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: #083c92;
+        font-weight: bold;
+    }
+    section {
+        margin-top: 35px;
+    }
+    section h2 {
+        border-bottom: 2px solid #000;
+        padding-bottom: 5px;
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+    .two-col {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .item-title {
+        font-weight: bold;
+    }
+    ul {
+        margin: 10px 0 0 20px;
+    }
+
+    /* Download button */
+    .container {
+        position: relative;   /* ADD THIS */
+    }
+
+   .download-btn {
+        position: absolute;   /* stays inside resume box */
+        top: 40px;
+        left: 140px;
+        transform: translate(-50%, -50%); /* pulls it slightly outside the border */
+        padding: 8px 14px;
+        background: #083c92;
+        color: #fff;
+        border-radius: 6px;
+        font-size: 14px;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        transition: none;
+        z-index: 10;
+    }   
+
+
+   .download-btn:hover {
+    background: #052d6e;
+    }
+
+    .download-btn i {
+    font-size: 16px;
+    }
+
+@media print {
+    .download-btn { display: none; }
+}
+
+
+</style>
+
+
+<script>
+function downloadPDF() {
+    window.print();
+}
+</script>
+
+</head>
+
+<body>
+<div class="container">
+
+    <!-- Download Button -->
+    <a href="https://drive.google.com/uc?export=download&id=1Sm7L6Jk5WmVJ9FnV6gtGntYD3aa_YiP9" 
+   	class="download-btn">
+  	    <i class="fa-solid fa-download"></i> Download Resume (PDF)
+   </a>
+
+
+    <!-- Header -->
+    <h1><b>Darshan Lakade</b></h1>
+
+    <div class="links">
+        <a href="https://github.com/Darshan0301">GitHub: Darshan0301</a> |
+        <a href="https://linkedin.com/in/darshan-lakade-a30288231">LinkedIn</a> |
+        <a href="mailto:darshanlakade45@gmail.com">darshanlakade45@gmail.com</a> |
+        <a href="tel:+919356431932">+91-9356431932</a>
+    </div>
+
+    <!-- Summary -->
+    <section>
+        <h2>Professional Summary</h2>
+        <p>
+            Detail-oriented and proactive <b>Java Developer</b> with a B.Tech in Electronics and Telecommunication
+            and a completed PG-DAC from CDAC Pune. Skilled in 
+            <b>Java, Spring Boot, Hibernate, RESTful APIs, and MySQL</b> with hands-on experience in building 
+            microservices and full-stack applications using <b>React.js</b>. Strong foundation in 
+            <b>OOP, data structures, algorithms, and SDLC</b>. Collaborative team player with experience 
+            working in <b>Agile environments</b>, using <b>Git, CI/CD tools, JUnit, Postman</b> to deliver 
+            clean and scalable code.
+        </p>
+    </section>
+
+    <!-- Education -->
+    <section>
+        <h2>Education</h2>
+
+        <div class="two-col">
+            <div class="item-title">Centre for Development of Advanced Computing (CDAC)</div>
+            <div>Pune, MH &nbsp; | &nbsp; Feb 2025 – Aug 2025</div>
+        </div>
+        <div>Post Graduate Diploma in Advanced Computing (PG-DAC) — <b>Grade: A</b></div>
+
+        <br/>
+
+        <div class="two-col">
+            <div class="item-title">MIT Academy of Engineering</div>
+            <div>Pune, MH &nbsp; | &nbsp; Aug 2020 – Aug 2024</div>
+        </div>
+        <div>B.Tech in Electronics and Telecommunication — <b>CGPA: 7.51</b></div>
+    </section>
+
+    <!-- Projects -->
+    <section>
+        <h2>Projects</h2>
+
+        <div class="two-col">
+            <div class="item-title">Shopventory Billing Software – Inventory & Invoicing System</div>
+            <div>Aug 2025</div>
+        </div>
+
+        <ul>
+            <li>Designed and developed a <b>full-stack billing and inventory system</b> for SMEs.</li>
+            <li>Implemented <b>role-based authentication</b> using Spring Security + JWT.</li>
+            <li>Developed and tested <b>RESTful APIs</b> with Spring Boot; integrated React.js frontend.</li>
+            <li>Improved inventory accuracy by <b>25%</b> through real-time tracking modules.</li>
+            <li>Automated <b>invoice generation and printing</b>, reducing manual work by 40%.</li>
+            <li>Configured <b>Maven builds</b> and maintained code using Git & GitHub.</li>
+            <li><b>Tech Stack:</b> Java, Spring Boot, Hibernate, MySQL, React.js, Maven, JWT, Git</li>
+        </ul>
+    </section>
+
+    <!-- Skills -->
+    <section>
+        <h2>Technical Skills</h2>
+
+        <p><b>Languages:</b> Java, C, C++, C#, JavaScript, Python, SQL, JSON</p>
+        <p><b>Frameworks:</b> Spring (Core, Boot, MVC, Security, Data), Hibernate, ASP.NET Core, Entity Framework, React.js, Node.js</p>
+        <p><b>Database:</b> MySQL, SQL Server</p>
+        <p><b>Tools & Platforms:</b> IntelliJ IDEA, Visual Studio, Eclipse, VS Code, Postman, Git, GitHub, Maven, Docker</p>
+    </section>
+
+    <!-- Additional Skills -->
+    <section>
+        <h2>Additional Skills</h2>
+        <p>
+            Agile Methodology, REST API Design, Microservices Architecture, SDLC, CI/CD Pipelines,
+            Unit Testing (JUnit), JSON Parsing, Version Control (Git), Cloud Fundamentals (AWS Basics)
+        </p>
+    </section>
+
+    <!-- Coursework -->
+    <section>
+        <h2>Relevant Coursework</h2>
+        <p>
+            Data Structures & Algorithms, Object-Oriented Programming, DBMS, Java Programming,
+            Web Java (Servlets, JSP, Spring), .NET (C#, ASP.NET), Web Technologies
+        </p>
+    </section>
+
+</div>
+</body>
+</html>
